@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nja-4B-v80">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E0P-05-ssR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <color key="backgroundColor" red="0.16862745100000001" green="0.38431372549999998" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="isD-ba-z4G"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="nVE-he-K0P">
+                                <rect key="frame" x="3.5" y="307.5" width="368" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="d0p-eL-QY8"/>
+                                    <constraint firstAttribute="width" constant="368" id="dJ7-xK-A02"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Most Popular " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfI-jY-OYR">
+                                <rect key="frame" x="123" y="226" width="129" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.16862745100000001" green="0.38431372549999998" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nVE-he-K0P" firstAttribute="centerY" secondItem="Nja-4B-v80" secondAttribute="centerY" id="OiY-CE-WTQ"/>
+                            <constraint firstAttribute="trailing" secondItem="E0P-05-ssR" secondAttribute="trailing" id="PgG-CE-2Po"/>
+                            <constraint firstItem="nVE-he-K0P" firstAttribute="centerX" secondItem="Nja-4B-v80" secondAttribute="centerX" id="YyJ-kE-I7V"/>
+                            <constraint firstItem="E0P-05-ssR" firstAttribute="top" secondItem="Nja-4B-v80" secondAttribute="top" id="cge-ZH-NJH"/>
+                            <constraint firstItem="nVE-he-K0P" firstAttribute="top" secondItem="XfI-jY-OYR" secondAttribute="bottom" constant="57.5" id="iz4-VF-pF5"/>
+                            <constraint firstItem="E0P-05-ssR" firstAttribute="leading" secondItem="Nja-4B-v80" secondAttribute="leading" id="m5W-5N-dbZ"/>
+                            <constraint firstItem="XfI-jY-OYR" firstAttribute="centerX" secondItem="Nja-4B-v80" secondAttribute="centerX" id="s5g-bE-I92"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nBH-Iw-laH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="download" width="368" height="52"/>
+    </resources>
+</document>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>service_url</key>
+	<string>http://api.nytimes.com/svc/mostpopular/v2/</string>
+	<key>api_key</key>
+	<string>d82f7ad50d3746b0ba589d92463e758f</string>
+</dict>
+</plist>
